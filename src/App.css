@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding : 0;
+}
+
+.first-color { 
+	background: #dbd8e3; 
+}
+	
+.second-color { 
+	background: #5c5470; 
+}
+
+.third-color { 
+	background: #352f44; 
+}
+
+.fourth-color { 
+	background: #2a2438; 
+}
+
+
+
+
+
+
+
+
+
+
+.container{
+    background-color: #352f44 ;
+    min-width: 400px;
+    
+    min-height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+    padding-top: 10px;
+    box-shadow: -1px 7px 40px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 7px 40px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 7px 40px -2px rgba(0,0,0,0.75);
+    
+        
+   }
+
+   
+
+   p{
+    color: white;
+    font-weight: 500;
+  }
+  button{
+   
+    width: 5em;
+    height: 3em;
+    border-radius: 10px;
+    background-color: #5c5470;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.3s;
+  }
+  button:hover{
+    background-color: white;
+    color: #5c5470
+  }
+  .monchro p{
+    font-size: 100px;
+    font-weight: 900;
+    
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+  }
+  input{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    height: 2em;
+  }
+  
+  
+  .inputs{
+    display: flex;
+    gap:5px;
+    flex-direction: row-reverse;
+    
+  }
+  .labels{
+    display: flex;
+    gap: 110px;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+  }
+  .labels span{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+  }
+  
+
+  .lapsContainer{
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+ 
+  }
+  .lapsContainer ul{
+  width: 100%;
+}
+  .lapsContainer li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:4em;
+    border-top: 1px solid white;
+    padding-top:3px;
+    padding-bottom: 3px;
+    position: relative;
+  
+    
+  }
+  .lapsContainer li button{
+    position: absolute;
+    right: 4px;
+    width: 10px;
+    height: 10px;
+   bottom: 10px;
+    background-color: transparent;
+  }
+  .about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  h3{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+  }
+  .about-container p {
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none; /* Remove default underline */
+    border-bottom: 1px solid currentColor; /* Create a custom underline */
+    display: inline-block; /* Ensure the border is only under the text */
+    line-height: 1.5; /* Improve readability */
+    margin: 20px auto; /* Center the paragraph with auto margins */
+    max-width: 600px; /* Limit the width for better readability */
+    color: #333; /* Set a default text color */
+    padding: 10px 20px; /* Add some padding for better spacing */
+    border-radius: 5px; /* Slightly round the corners */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+
+  .signature{
+    font-family: 'Best Signature Font', sans-serif;
+    font-size: 24px;
+                                                
+  }
